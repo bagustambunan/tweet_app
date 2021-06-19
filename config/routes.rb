@@ -12,4 +12,5 @@ Rails.application.routes.draw do
 
   post "posts/create", to: "posts#create"
   post "posts/:id/update", to: "posts#update"
+  post "posts/:id/destroy", to: "posts#destroy"
 end
